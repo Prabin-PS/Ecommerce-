@@ -1,0 +1,18 @@
+spring:
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    url: jdbc:postgresql://localhost:5432/marketplace
+    user: postgres
+    password:
+    out-of-order: true
+
+  datasource:
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 8
+    name: marketplace
+    password:
+    url: jdbc:postgresql://localhost:5432/marketplace
+    username: postgres
