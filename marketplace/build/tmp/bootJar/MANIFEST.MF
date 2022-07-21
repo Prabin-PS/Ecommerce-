@@ -4,6 +4,6 @@ Spring-Boot-Layers-Index: BOOT-INF/layers.idx
 Start-Class: com.newproject.marketplace.MarketplaceApplication
 Spring-Boot-Classes: BOOT-INF/classes/
 Spring-Boot-Lib: BOOT-INF/lib/
-Spring-Boot-Version: 2.6.6
+Spring-Boot-Version: 2.6.7
 Main-Class: org.springframework.boot.loader.JarLauncher
 
